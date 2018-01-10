@@ -1,6 +1,6 @@
 <?php
 
-$apiKey = 'AIzaSyA5v3owUpxY_7qzHqaVw4BKprOQ4wC39GA';
+$apiKey = '';
 $url = 'https://translation.googleapis.com/language/translate/v2?key=' .$apiKey . '&q=' .$_POST['q']. '&target=' . $_POST['target'];
 
 $handle = curl_init($url);
